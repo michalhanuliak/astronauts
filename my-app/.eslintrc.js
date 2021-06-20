@@ -12,7 +12,7 @@ module.exports = {
         files: ['*.ts', '.tsx'],
         project: "./tsconfig.eslint.json",
     },
-    ignorePatterns: ['.eslintrc.js'],
+    ignorePatterns: ['.eslintrc.js', 'server.js'],
     rules: {
         "linebreak-style": ["error", "windows"],
         "import/no-extraneous-dependencies": ["error", { "devDependencies": true }],
